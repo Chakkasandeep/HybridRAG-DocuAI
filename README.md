@@ -1,4 +1,3 @@
-=======================================================================
 📚 DocuAI – Chat with Your PDFs
 =======================================================================
 
@@ -54,8 +53,7 @@ and get context-aware answers instantly.
 5. On user query → Search top relevant chunks
 6. Pass chunks + query → Groq LLaMA model
 7. Streamlit displays the final answer
-
-=======================================================================
+-----------------------------------------------------------------------
 **Add Your API Keys**
 ```
 Create a .env file in the project root:
