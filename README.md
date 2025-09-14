@@ -55,7 +55,7 @@ and get context-aware answers instantly.
 7. Streamlit displays the final answer
 -----------------------------------------------------------------------
 **Add Your API Keys:**
--Create a .env file in the project root:
+- Create a .env file in the project root:
 ```
 GROQ_API_KEY=your_groq_api_key_here
 ```
