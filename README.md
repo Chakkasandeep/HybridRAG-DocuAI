@@ -1,4 +1,3 @@
-"""
 =======================================================================
 📚 DocuAI – Chat with Your PDFs
 =======================================================================
@@ -57,16 +56,18 @@ and get context-aware answers instantly.
 7. Streamlit displays the final answer
 
 =======================================================================
-"""
+**Add Your API Keys**
+```
+Create a .env file in the project root:
+GROQ_API_KEY=your_groq_api_key_here
+```
 
-import streamlit as st
-from PyPDF2 import PdfReader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-import os
-from dotenv import load_dotenv
-
-from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceEmbeddings  # 🔹 Use HuggingFace embeddings
-from langchain.vectorstores import FAISS
-from langchain.chains.question_answering import load_qa_chain
-from langchain.prompts import PromptTemplate
+**▶️ Run the App**
+```
+streamlit run app.py
+```
+**Clone the repo:**
+```
+    git clone https://github.com/your-username/docuai-pdf-chat.git
+    cd docuai-pdf-chat
+```
