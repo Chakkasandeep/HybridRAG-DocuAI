@@ -66,6 +66,6 @@ streamlit run app.py
 ```
 **Clone the repo:**
 ```
-    git clone https://github.com/your-username/docuai-pdf-chat.git
+    git clone https://github.com/Chakkasandeep/DocuAI-Chat-with-Your-PDFs.git
     cd docuai-pdf-chat
 ```
