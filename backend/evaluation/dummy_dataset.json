@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is the primary function of the attention mechanism?",
+    "ground_truth": "The primary function of the attention mechanism is to allow the model to focus on different parts of the input sequence when generating the output, enabling better handling of long-range dependencies.",
+    "relevant_chunks": [
+      "The attention mechanism dynamically weights different parts of the input sequence to help the model focus on relevant context.",
+      "By allowing the decoder to focus on specific parts of the encoder output, attention resolves the bottleneck of traditional sequence-to-sequence models."
+    ]
+  },
+  {
+    "question": "Explain the concept of Hybrid Retrieval.",
+    "ground_truth": "Hybrid retrieval combines dense retrieval (semantic search) and sparse retrieval (keyword search) to leverage both semantic understanding and exact keyword matching.",
+    "relevant_chunks": [
+      "Hybrid retrieval integrates semantic dense vectors and BM25 sparse keyword indices.",
+      "Combining vector database search with classical keyword search yields higher recall and better relevance."
+    ]
+  },
+  {
+    "question": "What is cross-encoder reranking?",
+    "ground_truth": "Cross-encoder reranking evaluates the query and document candidates together to produce high-accuracy relevance scores, filtering and ordering top results.",
+    "relevant_chunks": [
+      "Cross-encoders process the query and document jointly, capturing full token interaction.",
+      "Reranking candidate chunks from a fast first-stage retriever improves retrieval precision before passing to the LLM."
+    ]
+  }
+]

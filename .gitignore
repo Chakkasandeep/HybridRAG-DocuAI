@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+*.env
+
+# FAISS Index (runtime generated)
+faiss_index/
+
+# Evaluation Runtime Artifacts
+evaluation/eval_faiss_index/
+evaluation/user_dataset.json
+evaluation/metrics.json
+evaluation/evaluation_report.csv
+evaluation/retrieval_metrics_comparison.png
+evaluation/retrieval_latency_comparison.png
+
+# Uploaded PDFs (user data)
+backend/uploads/
+
+# Node Modules
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit (legacy)
+.streamlit/

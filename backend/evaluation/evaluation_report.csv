@@ -1,0 +1,13 @@
+question,config,precision@5,recall@5,hit_rate@5,mrr,ndcg@5,retrieval_latency
+What is the primary function of the attention mechanism?,Semantic_Only,0.4,1.0,1.0,1.0,0.8772153153380493,0.11989188194274902
+What is the primary function of the attention mechanism?,Keyword_Only,0.4,1.0,1.0,0.3333333333333333,0.5437713091520254,0.0014507770538330078
+What is the primary function of the attention mechanism?,Hybrid_Only,0.4,1.0,1.0,1.0,0.8772153153380493,0.034595489501953125
+What is the primary function of the attention mechanism?,Hybrid_Reranked,0.4,1.0,1.0,0.5,0.6934264036172708,0.43117833137512207
+Explain the concept of Hybrid Retrieval.,Semantic_Only,0.4,1.0,1.0,0.5,0.6509209298071326,0.03561139106750488
+Explain the concept of Hybrid Retrieval.,Keyword_Only,0.2,0.5,1.0,1.0,0.6131471927654584,0.00047278404235839844
+Explain the concept of Hybrid Retrieval.,Hybrid_Only,0.2,0.5,1.0,0.5,0.38685280723454163,0.03549790382385254
+Explain the concept of Hybrid Retrieval.,Hybrid_Reranked,0.2,0.5,1.0,1.0,0.6131471927654584,0.26840901374816895
+What is cross-encoder reranking?,Semantic_Only,0.4,1.0,1.0,0.5,0.6240505200038379,0.057784080505371094
+What is cross-encoder reranking?,Keyword_Only,0.4,1.0,1.0,1.0,1.0,0.00037169456481933594
+What is cross-encoder reranking?,Hybrid_Only,0.4,1.0,1.0,1.0,0.9197207891481876,0.03751850128173828
+What is cross-encoder reranking?,Hybrid_Reranked,0.4,1.0,1.0,1.0,0.9197207891481876,0.3695409297943115
