@@ -188,7 +188,7 @@ HybridRAG-DocuAI/
 │   │   └── reranker.py               # CrossEncoder reranker & confidence scoring
 │   ├── evaluation/
 │   │   ├── evaluator.py              # Full benchmark suite runner
-│   │   ├── metrics.py                # Precision@k, Recall@k, Hit Rate, MRR, nDCG formulas (backend)
+│   │   ├── metrics.py                # Precision@k, Recall@k
 │   │   └── dummy_dataset.json        # Default evaluation QA pairs
 │   ├── models/
 │   │   └── llm_manager.py            # LangChain QA chain & citation prompt
