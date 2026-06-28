@@ -188,7 +188,7 @@ HybridRAG-DocuAI/
 │   │   └── reranker.py               # CrossEncoder reranker & confidence scoring
 │   ├── evaluation/
 │   │   ├── evaluator.py              # Full benchmark suite runner
-│   │   ├── metrics.py                # Precision@k, Recall@k, MRR, nDCG formulas
+│   │   ├── metrics.py                # Precision@k, Recall@k, Hit Rate, MRR, nDCG formulas (backend)
 │   │   └── dummy_dataset.json        # Default evaluation QA pairs
 │   ├── models/
 │   │   └── llm_manager.py            # LangChain QA chain & citation prompt
@@ -341,11 +341,10 @@ The system includes a **built-in real-time evaluation suite** that benchmarks al
 | Hybrid Search | FAISS + BM25 fused via RRF |
 | Hybrid + Reranker | FAISS + BM25 + RRF + CrossEncoder |
 
-### Metrics Measured
+### Metrics Displayed in Dashboard
 - **Precision@5** — What % of the top-5 retrieved chunks are relevant?
 - **Recall@5** — What % of all relevant chunks were found in the top-5?
 - **Latency (ms)** — How fast does each configuration retrieve results?
-- **nDCG@5** — Ranking quality of the retrieved chunks
 
 ### Dynamic Synthetic QA Generation
 When you run the evaluation after uploading your own PDFs, the system:
